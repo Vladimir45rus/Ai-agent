@@ -1,14 +1,18 @@
 {
-  "dependencies": {
-    "expo": "~53.0.9",
-    "react-native-zip-archive": "^7.1.1",
-    "react": "19.0.0",
-    "react-native": "0.79.6"
-  },
   "name": "VoicePulse-main",
   "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "start": "expo start",
     "android": "expo run:android",
-    "ios": "expo run:ios"
-  }
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~53.0.9",
+    "react": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-zip-archive": "^7.1.1"
+  },
+  "private": true
 }
