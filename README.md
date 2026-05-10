@@ -27,11 +27,11 @@
    **[EN]** Offline support via local LLMs.
 
 ## 📦 Запуск / Setup
-```bash
+Команды для терминала
 cd mobile-app
 npm install
 npx expo start
 
-📄 License:
+## 📄 License:
 
 MIT
