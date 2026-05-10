@@ -1,28 +1,33 @@
-# 🤖 Царь AI-агент
+# 🤖 Царь ИИ-Агент & VoicePulse / Tsar AI-Agent
 
-Экспериментальный агент для автоматизации задач разработки: рефакторинг кода, генерация автотестов, анализ логов. Построен на базе OpenClaw и API DeepSeek.
+[RU] Экспериментальная экосистема для автоматизации задач, анализа кода и голосового управления.
+[EN] Experimental ecosystem for task automation, code analysis, and voice control.
 
-## 🛠 Стек
+---
 
-- React Native / Expo (фронт)
-- Node.js (бэк, в планах)
-- Интеграция с OpenClaw
+## 📂 Структура / Project Structure
+* **mobile-app/** — [RU] Мобильное приложение (React Native/Expo). / [EN] Mobile application.
+  * `src/App.js` — [RU] Интерфейс и связь с ИИ-центром. / [EN] UI & AI communication.
+* **Tsar_Main_Brain.js** — [RU] Главный управляющий модуль (Оркестратор). / [EN] Main Orchestrator.
+* **voice_commander.js** — [RU] Обработка и фильтрация команд. / [EN] Command filtering.
 
-## 🚀 Что умеет сейчас
+## 🚀 Текущие возможности / Current Features
+- **Voice Control:** [RU] Прямое управление через VoicePulse. / [EN] Direct voice control.
+- **AI Analytics:** [RU] Рефакторинг и анализ логов через DeepSeek API. / [EN] Refactoring via DeepSeek.
+- **Hybrid Architecture:** [RU] Тяжелые вычисления на сервере, быстрый клиент на смартфоне. / [EN] Offloaded computations.
 
-- Принимать запросы на рефакторинг
-- Генерировать тесты по описанию
-- Анализировать логи на ошибки
+## 🛠 План развития (Roadmap) / Next Steps
+1. **[RU]** Полная миграция всех модулей на двуязычную документацию (RU/EN).
+   **[EN]** Full migration of all modules to dual-language documentation.
+2. **[RU]** Внедрение системы "Царь ID" для безопасной авторизации.
+   **[EN]** Integration with "Tsar ID" for secure authentication.
+3. **[RU]** Автоматизация выплаты подписок через встроенный модуль.
+   **[EN]** Automated subscription payments module integration.
+4. **[RU]** Поддержка работы без интернета (Local LLM).
+   **[EN]** Offline support via local LLMs.
 
-## 📦 Запуск
-
-`bash
+## 📦 Запуск / Setup
+```bash
+cd mobile-app
 npm install
 npx expo start
-
-🔗 Связанные проекты
-Царь ID
-Царь Подписки
-
-📄 Лицензия
-MIT
