@@ -1,7 +1,7 @@
 # 🤖 Царь ИИ-Агент & VoicePulse / Tsar AI-Agent
 
-[RU] Экспериментальная экосистема для автоматизации задач, анализа кода и голосового управления.
-[EN] Experimental ecosystem for task automation, code analysis, and voice control.
+[RU] Центральный интеллект экосистемы «Царь». Оркестратор задач, анализа кода и голосового управления.
+[EN] The central brain of the "Tsar" ecosystem. Orchestrator of tasks, code analysis, and voice control.
 
 ---
 
@@ -11,23 +11,33 @@
 * **Tsar_Main_Brain.js** — [RU] Главный управляющий модуль (Оркестратор). / [EN] Main Orchestrator.
 * **voice_commander.js** — [RU] Обработка и фильтрация команд. / [EN] Command filtering.
 
-## 🚀 Текущие возможности / Current Features
-- **Voice Control:** [RU] Прямое управление через VoicePulse. / [EN] Direct voice control.
-- **AI Analytics:** [RU] Рефакторинг и анализ логов через DeepSeek API. / [EN] Refactoring via DeepSeek.
-- **Hybrid Architecture:** [RU] Тяжелые вычисления на сервере, быстрый клиент на смартфоне. / [EN] Offloaded computations.
+## 🚀 Возможности / Key Features
+- **Voice Control:** [RU] Прямое управление через VoicePulse. / [EN] Direct voice control via VoicePulse.
+- **AI Analytics:** [RU] Рефакторинг и анализ логов через ядро MiMo v2.5. / [EN] Code refactoring and audit via MiMo v2.5 kernel.
+- **Orchestration:** [RU] Связующее звено между всеми модулями (ID, Щит, Аптечка). / [EN] Cross-module coordination (ID, Shield, First Aid).
+- **Law 666:** [RU] Разработка ведется строго без упрощений и удаления кода. / [EN] Development strictly follows the Law 666.
 
-## 🛠 План развития (Roadmap) / Next Steps
-1. **[RU]** Полная миграция всех модулей на двуязычную документацию (RU/EN).
-   **[EN]** Full migration of all modules to dual-language documentation.
-2. **[RU]** Внедрение системы "Царь ID" для безопасной авторизации.
-   **[EN]** Integration with "Tsar ID" for secure authentication.
-3. **[RU]** Автоматизация выплаты подписок через встроенный модуль.
-   **[EN]** Automated subscription payments module integration.
-4. **[RU]** Поддержка работы без интернета (Local LLM).
-   **[EN]** Offline support via local LLMs.
+---
+
+## 🇺🇸 MiMo Orbit Grant Specification (EN)
+**Project Goal:** Deploying a high-context autonomous AI agent for ecosystem management.
+
+### 🤖 MiMo v2.5 Pro Implementation:
+1. **Universal Memory (1M Context):** The agent uses the massive context window to synchronize logic between all "Tsar" apps.
+2. **Hybrid Architecture:** Deep AI reasoning offloaded to server-side MiMo layers, with fast local voice processing.
+3. **Proactive Command Filtering:** VoicePulse uses AI to filter noise and understand complex technical commands.
+
+---
+
+## 🛠 План развития (Roadmap)
+1. **[RU]** Полная миграция на двуязычную документацию. / **[EN]** Full RU/EN doc migration.
+2. **[RU]** Интеграция с "Царь ID" и "Царь Щит". / **[EN]** Tsar ID & Tsar Shield integration.
+3. **[RU]** Автономная работа (Local LLM) без зависимости от интернета. / **[EN]** Offline Local LLM support.
+
+---
 
 ## 📦 Запуск / Setup
-Команды для терминала
+Команды для терминала:
 cd mobile-app
 npm install
 npx expo start
