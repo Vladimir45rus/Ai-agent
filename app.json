@@ -1,0 +1,11 @@
+{
+  "android": {
+    "package": "com.tsarvladimir.voicepulsemain"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "ef3cf971-bf6e-43a3-b2e7-84ce21ce8202"
+    }
+  },
+  "owner": "tsarvladimir"
+}
