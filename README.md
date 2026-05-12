@@ -44,4 +44,4 @@ npx expo start
 
 ## 📄 License:
 
-MIT
+MIT | Created by Vladimir "Tsar Batyushka
